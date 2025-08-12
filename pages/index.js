@@ -26,6 +26,12 @@ export default function Home() {
         </section>
       ))}
       <footer className="mt-12 text-xs text-gray-500">
+        <div className="flex gap-4 mt-2">
+          <a href="https://github.com/bfarmerUMD" target="_blank" rel="noopener noreferrer">
+            <img src="/images/github.svg" alt="GitHub" className="w-6 h-6"/>
+          </a>
+          {/* Add more icons as needed */}
+        </div>
         Page template inspired by <a href="https://github.com/evanca/quick-portfolio" className="underline">evanca</a>
       </footer>
     </main>
