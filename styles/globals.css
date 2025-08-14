@@ -3,5 +3,22 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gradient-to-br from-gray-50 to-green-50;
+  @apply bg-parchment text-iron font-victorian;
+  background-image: repeating-linear-gradient(135deg, #f5ecd7 0px, #f5ecd7 40px, #e6d3b3 40px, #e6d3b3 80px);
+}
+
+.steampunk-border {
+  border: 4px solid #b08d57;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px #70421455, 0 0 0 8px #b8733322;
+  background: linear-gradient(135deg, #f5ecd7 80%, #b08d57 100%);
+}
+
+.gear {
+  width: 32px;
+  height: 32px;
+  fill: #b87333;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
 }
